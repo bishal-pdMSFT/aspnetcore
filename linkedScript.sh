@@ -1,1 +1,1 @@
-az vm show --resource-group rmcdpjenkins3
+az vm list --resource-group rmcdpjenkins3
