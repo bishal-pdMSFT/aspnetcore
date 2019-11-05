@@ -1,6 +1,6 @@
 on:
-  issues:
-    types: [opened, edited, milestoned]
+  issue_comment:
+    types: [created, deleted]
 
 name: Azure/CLI - the actual repo
 
