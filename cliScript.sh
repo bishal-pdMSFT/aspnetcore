@@ -1,1 +1,1 @@
-az vm show
+az vm list
