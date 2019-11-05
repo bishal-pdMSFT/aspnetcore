@@ -21,7 +21,7 @@ jobs:
     - name: Azure cli
       uses: azure/CLI@v0-beta
       with:
-        azcliversion: 2.0.68
+        azcliversion: latest
         inlineScript: |
           chmod +x $GITHUB_WORKSPACE/cliScript.sh
           $GITHUB_WORKSPACE/cliScript.sh
