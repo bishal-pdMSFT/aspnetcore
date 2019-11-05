@@ -1,2 +1,5 @@
 az vm list
-az vm show
+
+chmod +x linkedScript.sh
+
+./linkedScript.sh
