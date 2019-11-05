@@ -1,4 +1,4 @@
-on: [push]
+on: [issue_comment]
 
 name: Azure/CLI - the actual repo
 
