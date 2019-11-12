@@ -23,5 +23,4 @@ jobs:
       with:
         azcliversion: latest
         inlineScript: |
-          chmod +x $GITHUB_WORKSPACE/cliScript.sh
-          $GITHUB_WORKSPACE/cliScript.sh
+          az vm show --resource-group rmcdpjenkins3
